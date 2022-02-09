@@ -1,11 +1,14 @@
 
-jeff.txt:
-	man ./jeff.7 | col -x -b > jeff.txt
+jeff.txt: dir
+	man ./jeff.7 | col -x -b > docs/jeff.txt
 
-index.html:
-	man ./jeff.7 | python3 render.py > index.html
+dir:
+	mkdir -p docs
+
+index.html: dir
+	man ./jeff.7 | python3 render.py > docs/index.html
 
 .PHONY: all clean
 all: jeff.txt index.html
 clean:
-	rm jeff.txt index.html
+	rm docs/jeff.txt docs/index.html
