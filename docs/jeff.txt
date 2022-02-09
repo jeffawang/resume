@@ -17,9 +17,9 @@ DESCRIPTION
      javascript, typescript, c#, and haskell.
 
 INTERESTS
-     jeff is a life-long learner who enjoys growing with others. He hopes to
-     work with smart, friendly people who share knowledge together while solving
-     interesting and important problems.
+     jeff loves to learn and grow with others. He hopes to work with smart,
+     friendly people who share knowledge together while solving interesting and
+     important problems.
 
 HISTORY
      2021-2022  Recurse Center
