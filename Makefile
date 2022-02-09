@@ -2,10 +2,10 @@
 jeff.txt:
 	man ./jeff.7 | col -x -b > jeff.txt
 
-jeff.html:
-	man ./jeff.7 | python3 render.py > jeff.html
+index.html:
+	man ./jeff.7 | python3 render.py > index.html
 
 .PHONY: all clean
-all: jeff.txt jeff.html
+all: jeff.txt index.html
 clean:
-	rm jeff.txt jeff.html
+	rm jeff.txt index.html
