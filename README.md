@@ -7,6 +7,8 @@ Render with `make clean all`, which will render html and txt output to a `docs` 
 
 So far, only tested on MacOS.
 
+Use `./watch.sh` to hot reload manpage rendering/viewing when repo files change.
+
 Refer to `man`-related docs for formatting help.
 
 ```
