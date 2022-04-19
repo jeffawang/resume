@@ -27,7 +27,7 @@ HISTORY
               showcase the shaders
            •  Used Rust and shaders to generate visual art from oscilloscope
               music
-           •  Made an ascii game which takes place on a cube
+           •  Made an ascii game in go which takes place on a cube
 
      Cruise
 
