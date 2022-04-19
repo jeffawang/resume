@@ -22,27 +22,33 @@ HISTORY
 
          Recurser (Nov 2021 - Feb 2022)
            •  Learned Haskell, Rust, GLSL, and WGSL
-           •  Created webapps with React and Next.js
-           •  Created generative art
+           •  Created a collaborative poetry webapp with React and Next.js
+           •  Built a shader live-coding tool with TypeScript and a website to
+              showcase the shaders
+           •  Used Rust and shaders to generate visual art from oscilloscope
+              music
+           •  Made an ascii game which takes place on a cube
 
      Cruise
 
          Engineering Manager, PaaS (Jul 2020 - Sep 2021)
-           •  Owned eng-wide mission-critical HA PaaS (GKE and on-prem)
            •  Managed 5 engineers (new-grad through senior)
-           •  Collaborated with engineers to draw roadmaps on sprint, quarterly,
-              and yearly timelines
-           •  Organized org-wide hackathon and created new tools to gain insight
-              on toil levels
+           •  Owned eng-wide mission-critical kubernetes-based PaaS (GKE and on-
+              prem)
+           •  Delivered self-service infrastructure provisioning and deployment
+              abstractions to engineering teams
+           •  Organized an cross-team hackathon and created new tools to gain
+              and visualize insight on toil levels. Made stickers.
            •  Facilitated and participated in code and design reviews
 
          Senior Software Engineer, PaaS (Apr 2019 - Jul 2020)
-           •  Operated eng-wide mission-critical HA PaaS (GKE and on-prem), part
-              of the time as tech lead.
-           •  Automated provisioning, reducing engineering effort for new
-              infrastructure from one week to one minute.
-           •  Created self-service APIs and docs to categorically eliminate
-              support requests.
+           •  Operated eng-wide mission-critical kubernetes-based PaaS (GKE and
+              on-prem), part of the time as tech lead.
+           •  Automated provisioning by writing Kubernetes operators in Go,
+              reducing engineering effort for new infrastructure from one week
+              to one minute.
+           •  Created docs and self-service APIs in Go to categorically
+              eliminate support requests.
            •  Supported team with coaching, code reviews, and pair programming
            •  Co-hosted cross-team hackathon and created a UX-focused service
               management API and CLI, a la heroku
