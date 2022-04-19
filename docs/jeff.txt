@@ -6,7 +6,8 @@ NAME
 DESCRIPTION
      jeff is a software engineer with experience operating distributed systems,
      automating fleets of linux servers, writing APIs, creating web frontends,
-     wrangling cloud technology, and mentoring and managing other engineers.
+     wrangling cloud technology, and mentoring and managing other engineers. He
+     loves to learn and enjoys diverse and curiously-minded company.
 
 TECHNOLOGIES
      Languages
@@ -14,87 +15,81 @@ TECHNOLOGIES
         GLSL, WGSL)
 
      Systems and tools
-        GNU/Linux, Kubernetes, Terraform, Docker, Puppet
-        AWS, GCP, on-prem
+        GNU/Linux, Kubernetes, Terraform, Docker, Puppet, AWS, GCP, on-prem
 
 HISTORY
      Recurse Center
 
-       Recurser (Nov 2021 - Feb 2022)
-         •  Learned Haskell, Rust, GLSL, and WGSL
-         •  Created webapps with React and Next.js
-         •  Created generative art
-
+         Recurser (Nov 2021 - Feb 2022)
+           •  Learned Haskell, Rust, GLSL, and WGSL
+           •  Created webapps with React and Next.js
+           •  Created generative art
 
      Cruise
 
-       Engineering Manager, PaaS (Jul 2020 - Sep 2021)
-         •  Owned eng-wide mission-critical HA PaaS (GKE and on-prem)
-         •  Managed 5 engineers (new-grad through senior)
-         •  Led agile practices on sprint, quarterly, and yearly timelines
-         •  Built relationships with sister teams and end-users
-         •  Conducted 1-on-1s and performance reviews for reports
-         •  Reviewed code and designs
-         •  Organized org-wide hackathon and created new tools to gain insight
-            on toil levels
-         •  Minimized off-hours on-call pages by analyzing alert severities
+         Engineering Manager, PaaS (Jul 2020 - Sep 2021)
+           •  Owned eng-wide mission-critical HA PaaS (GKE and on-prem)
+           •  Managed 5 engineers (new-grad through senior)
+           •  Collaborated with engineers to draw roadmaps on sprint, quarterly,
+              and yearly timelines
+           •  Organized org-wide hackathon and created new tools to gain insight
+              on toil levels
+           •  Facilitated and participated in code and design reviews
 
-       Senior Software Engineer, PaaS (Apr 2019 - Jul 2020)
-         •  Operated eng-wide mission-critical HA PaaS (GKE and on-prem), part
-            of the time as tech lead.
-         •  Automated infra provisioning, reducing engineering effort for new
-            clusters from one week to one minute.
-         •  Created self-service APIs to eliminate support requests.
-         •  Supported team with coaching, code reviews, and adding tests
-         •  Co-hosted cross-team hackathon and created a UX-focused service
-            management API
-         •  24/7 on-call rotation
-
+         Senior Software Engineer, PaaS (Apr 2019 - Jul 2020)
+           •  Operated eng-wide mission-critical HA PaaS (GKE and on-prem), part
+              of the time as tech lead.
+           •  Automated provisioning, reducing engineering effort for new
+              infrastructure from one week to one minute.
+           •  Created self-service APIs and docs to categorically eliminate
+              support requests.
+           •  Supported team with coaching, code reviews, and pair programming
+           •  Co-hosted cross-team hackathon and created a UX-focused service
+              management API and CLI, a la heroku
+           •  24/7 on-call rotation
 
      Lightsale, Inc.
 
-       Co-founder (Oct 2017 - Apr 2019)
-         •  Built frontends for VR and web
-         •  Built backend APIs for user management, payments, orders, products,
-            etc.
-         •  Built ci/cd
-         •  Built monitoring and alerting
-         •  Set up GKE
-         •  Did half of everything else alongside the one other co-founder
-
+         Co-founder (Oct 2017 - Apr 2019)
+           •  Built frontends for VR and web
+           •  Built ecommerce backend APIs for payments, users, orders,
+              products, etc.
+           •  Built CI/CD
+           •  Built monitoring and alerting
+           •  Set up GKE
+           •  Did half of everything else alongside the one other co-founder
 
      Quantcast
 
-       System Engineer (Jan 2016 - Apr 2017)
-         •  Evaluated, chose, and migrated to new monitoring and metrics system
-         •  Developed tools to automate scalable cloud deployments
-         •  Built out company-wide ticketing and alerting system
-         •  Managed eng-wide CI/CD systems
-         •  Migrated DNS from on-prem to hybrid cloud
-         •  24/7 on-call rotation
+         System Engineer (Jan 2016 - Apr 2017)
+           •  Evaluated, chose, and migrated to new monitoring and metrics
+              system
+           •  Developed tools to automate scalable cloud deployments
+           •  Built out company-wide ticketing and alerting system
+           •  Managed eng-wide CI/CD systems
+           •  Migrated DNS from on-prem to hybrid cloud
+           •  24/7 on-call rotation
 
-       Production Engineer (May 2014 - Jan 2016)
-         •  Automated and scaled bare metal MapReduce
-         •  Designed and implemented migration from on-prem to hybrid aws
-            infrastructure
-         •  Hacked on config management and observability with puppet, ganglia,
-            nagios, and python
-         •  24/7 on-call rotation
-
+         Production Engineer (May 2014 - Jan 2016)
+           •  Automated and scaled bare metal MapReduce cluster
+           •  Implemented migration from on-prem to hybrid aws infrastructure
+           •  Hacked on config management and observability with puppet,
+              ganglia, nagios, and python
+           •  24/7 on-call rotation
 
      Coupa Software
 
-       Cloud Operations Engineer (Jun 2013 - May 2014)
-         •  Monitored and maintains hundreds of rails application instances in
-            production
-         •  Hacked on automation scripts and server templates (bash, chef)
-         •  24/7 on-call rotation
+         Cloud Operations Engineer (Jun 2013 - May 2014)
+           •  Monitored and maintains hundreds of rails application instances in
+              production
+           •  Hacked on automation scripts and server templates (bash, chef)
+           •  24/7 on-call rotation
 
-       Customer Care Engineer (Jul 2012 - Jun 2013)
-         •  Wrote scripts for operations engineers to review and run
-         •  Interacted with customers to answer questions and configure
-            instances
-         •  Found defects in the application and submitted bug reports
+         Customer Care Engineer (Jul 2012 - Jun 2013)
+           •  Wrote scripts for operations engineers to review and run
+           •  Interacted with customers to answer questions and configure
+              instances
+           •  Found defects in the application and submitted bug reports
 
 
 SEE ALSO
@@ -102,7 +97,7 @@ SEE ALSO
      linkedin.com/in/jeffawang
      jeffawang.com
 
-AUTHORS
+AUTHOR
      Jeff Wang
 
                                 February 8, 2022
