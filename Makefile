@@ -5,6 +5,7 @@ gh-pages:
 	git add docs
 	git commit -m'render'
 	git push
+	git checkout -
 
 jeff.txt: dir
 	man ./jeff.7 | col -x -b > docs/jeff.txt
