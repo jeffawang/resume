@@ -1,24 +1,24 @@
-.Dd February 8, 2022
+.Dd June 3, 2024
 .Dt JEFF 7
 .Sh NAME
 .Nm jeff
 .Nd software engineer (he/him)
 .Sh DESCRIPTION
 .Nm jeff
-is a software engineer with experience operating distributed systems,
-automating fleets of linux servers, writing APIs, creating web frontends,
-wrangling cloud technology, and mentoring and managing other engineers. He
-loves to learn and enjoys diverse and curiously-minded company.
+is a software engineer with experience operating distributed systems, automating
+fleets of linux servers, writing APIs, creating web frontends, wrangling cloud
+technology, and mentoring and managing other engineers. He loves to learn, and
+he enjoys the company of diverse and curiously-minded people.
 .Sh TECHNOLOGIES
 .Bl -tag -compact -width "1"
 .It Languages
 .It
-Python, Go, Bash, TypeScript, JavaScript, C# (learning Rust, Haskell, GLSL,
-WGSL)
+Go, Bash, Python, TypeScript, JavaScript, Rust, Haskell
 
 .It Systems and tools
 .It
-GNU/Linux, Kubernetes, Terraform, Docker, Puppet, AWS, GCP, on-prem
+GNU/Linux, NixOS, Kubernetes, Nomad, Consul, Vault, Terraform, Docker, Puppet,
+AWS, on-prem
 .El
 .Sh HISTORY
 .Bl -tag -width "" -offset "-2n"
@@ -28,8 +28,16 @@ GNU/Linux, Kubernetes, Terraform, Docker, Puppet, AWS, GCP, on-prem
 .Bl -tag -compact -width "1" -offset "1n"
 .It
 .Sy Senior Software Engineer
-(Sep 2022 - Now)
+(Sep 2022 - Present)
 .Bl -compact -width "1" -offset "-1n" -bullet -offset "2n"
+.It
+Operates nomad-based compute clusters and supporting infrastructure on AWS
+.It
+Automates on-prem machines in datacenter colos
+.It
+Iterates on CI/CD system
+.It
+Builds tooling for in-house developer productivity
 .El
 .El
 .Bl -tag -width "" -offset "-2n"
@@ -46,11 +54,12 @@ Learned Haskell, Rust, GLSL, and WGSL
 .It
 Created a collaborative poetry webapp with React and Next.js
 .It
-Built a shader live-coding tool with TypeScript and a website to showcase the shaders
+Built a shader live-coding tool with TypeScript and a website to showcase the
+shaders
 .It
 Used Rust and shaders to generate visual art from oscilloscope music
 .It
-Wrote a small ascii game in Go which takes place on a cube
+Wrote a small ascii TUI game in Go which takes place on a cube
 .El
 .El
 
@@ -66,12 +75,14 @@ Wrote a small ascii game in Go which takes place on a cube
 .It
 Managed 5 engineers (new-grad through senior)
 .It
-Owned eng-wide mission-critical kubernetes-based PaaS (GKE and on-prem)
+Owned eng-wide kubernetes-based PaaS (GKE and on-prem)
 .It
-Delivered self-service infrastructure provisioning and deployment abstractions to engineering teams
+Delivered self-service infrastructure provisioning and deployment abstractions
+to engineering teams
 .It
-Organized an cross-team hackathon and created new tools to gain and visualize insight on toil
-levels. Made stickers.
+Organized a cross-team hackathon. Made stickers.
+.It
+Created tooling to gain insights on and visualize toil levels
 .It
 Facilitated and participated in code and design reviews
 .El
@@ -81,13 +92,14 @@ Facilitated and participated in code and design reviews
 (Apr 2019 - Jul 2020)
 .Bl -compact -width "1" -bullet -offset "2n"
 .It
-Operated eng-wide mission-critical kubernetes-based PaaS (GKE and on-prem), part of the time
-as tech lead.
+Operated eng-wide kubernetes-based PaaS (GKE and on-prem), part of the time as
+tech lead.
 .It
-Automated provisioning by writing Kubernetes operators in Go, reducing engineering effort for new infrastructure from
-one week to one minute.
+Automated provisioning by writing Kubernetes operators in Go, reducing
+engineering effort for new infrastructure from one week to one minute.
 .It
-Created docs and self-service APIs in Go to categorically eliminate support requests.
+Created docs and self-service APIs in Go to categorically eliminate support
+requests.
 .It
 Supported team with coaching, code reviews, and pair programming
 .It
@@ -155,7 +167,8 @@ Automated and scaled bare metal MapReduce cluster
 .It
 Implemented migration from on-prem to hybrid aws infrastructure
 .It
-Hacked on config management and observability with puppet, ganglia, nagios, and python
+Hacked on config management and observability with puppet, ganglia, nagios, and
+python
 .It
 24/7 on-call rotation
 .El
