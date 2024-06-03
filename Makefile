@@ -1,3 +1,10 @@
+.PHONY: gh-pages
+gh-pages:
+	git checkout gh-pages
+	$(MAKE) jeff.txt index.html
+	git add docs
+	git commit -m'render'
+	git push
 
 jeff.txt: dir
 	man ./jeff.7 | col -x -b > docs/jeff.txt
