@@ -1,5 +1,6 @@
 .PHONY: gh-pages
 gh-pages:
+	[[ -z "$$(git log gh-pages..HEAD)" ]] && echo "no changes detected" && exit 1
 	git checkout gh-pages
 	git merge -
 	$(MAKE) jeff.txt index.html
