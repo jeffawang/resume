@@ -1,6 +1,7 @@
 .PHONY: gh-pages
 gh-pages:
 	git checkout gh-pages
+	git merge -
 	$(MAKE) jeff.txt index.html
 	git add docs
 	git commit -m'render'
