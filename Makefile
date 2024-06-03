@@ -1,13 +1,5 @@
-.PHONY: gh-pages
-gh-pages:
-	[[ -z "$$(git log gh-pages..HEAD)" ]] && echo "no changes detected" && exit 1
-	git checkout gh-pages
-	git merge -
-	$(MAKE) jeff.txt index.html
-	git add docs
-	git commit -m'render'
-	git push
-	git checkout -
+.PHONY: all
+all: jeff.txt index.html
 
 jeff.txt: dir
 	man ./jeff.7 | col -x -b > docs/jeff.txt
